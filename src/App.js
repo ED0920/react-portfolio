@@ -11,9 +11,9 @@ function App() {
       <header className="App-header">
         <MyComponent />
       </header>
-      <AboutMe />
+      {/* <AboutMe /> */}
       {/* <Portfolio /> */}
-      {/* <Contact /> */}
+      <Contact />
       {/* <Resume /> */}
       <Footer />
     </div>
