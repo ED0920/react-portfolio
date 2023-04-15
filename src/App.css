@@ -1,12 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -15,17 +6,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +22,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Nav Bar */
+.Nav {
+  display: flex;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+
+.Nav h1 {
+  text-align: left;
+}
+
+.Navbar {
+  display: flex;
+  text-align: center;
+  margin: 2%;
+}
+.Navbar a {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+
+/* footer */
+
+.footer {
+  height: 100px;
+  background-color: pink;
+  margin: 0;
+}
+
+footer {
+  display: block;
+  padding-top: 10%;
+  height: 100%;
+  margin: auto;
+  background-color: orange;
+  text-align: center;
+}
+.footer a {
+  margin: 10%;
+}
+/* body styling */
+.bodyContainer {
+  margin: 5% 7% 5% 7%;
+}
+
+/* Portfolio */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+}
+.image-container {
+  box-sizing: border-box;
+  border: 5px solid #92cccd;
+  margin: 25px;
+  height: 250px;
+  width: 400px;
+}
+
+/* Contact */
+
+. {
+  margin: 5%;
+}
+
+.name {
+  height: 25px;
+}
+
+input {
+  height: 250px;
+  width: 500px;
+}
+
+.submit {
+  margin-top: 3%;
+  padding: 50px, 20px, 10px, 20px;
 }
