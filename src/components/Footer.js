@@ -1,6 +1,6 @@
-import { ReactComponent as GithubSvg } from '../icons/github.svg';
-import { ReactComponent as LinkedinSvg } from '../icons/linkedin.svg';
-import { ReactComponent as StackoverflowSvg } from '../icons/stackoverflow.svg'
+import { ReactComponent as GithubSvg } from '../assets/github.svg';
+import { ReactComponent as LinkedinSvg } from '../assets/linkedin.svg';
+import { ReactComponent as StackoverflowSvg } from '../assets/stackoverflow.svg'
 
 
 const Footer = () => {

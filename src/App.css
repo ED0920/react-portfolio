@@ -62,11 +62,11 @@ footer {
 }
 /* body styling */
 .bodyContainer {
-  margin: 5% 7% 5% 7%;
+  margin: 5% 10% 5% 10%;
 }
 
 /* About Me */
-img {
+.profileImg {
   height: 75px;
   width: 75px;
   border-radius: 50%;
@@ -84,13 +84,10 @@ img {
   margin: 25px;
   height: 250px;
   width: 400px;
+  padding: 50px 25px 50px 25px;
 }
 
 /* Contact */
-
-. {
-  margin: 5%;
-}
 
 .name {
   height: 25px;

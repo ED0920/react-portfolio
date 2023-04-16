@@ -1,19 +1,51 @@
 import './App.css';
-import MyComponent from './components/MyComponent';
+import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from "./components/Resume";
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+function Layout({ children }) {
+  return (
+    <div>
+      <header className="App-header">
+        <Header />
+      </header>
+      {children}
+    </div>
+  )
+};
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout><AboutMe /></Layout>,
+  },
+  {
+    path: "/portfolio",
+    element: <Layout><Portfolio /></Layout>,
+  },
+  {
+    path: "/contact",
+    element: <Layout><Contact /></Layout>,
+  },
+  {
+    path: "/resume",
+    element: <Layout><Resume /></Layout>,
+  },
+]);
+
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <MyComponent />
-      </header>
+
+      <RouterProvider router={router} />
       {/* <AboutMe /> */}
       {/* <Portfolio /> */}
-      <Contact />
+      {/* <Contact /> */}
       {/* <Resume /> */}
       <Footer />
     </div>

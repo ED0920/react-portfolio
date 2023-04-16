@@ -11,7 +11,7 @@ const Contact = () => {
     }
 
     return <div className="Contact">
-        <Parent />
+
         <form className="bodyContainer" >
             <h2>Contact</h2>
             <h4>Name:</h4>
@@ -39,15 +39,15 @@ const Contact = () => {
 }
 
 
-const Child = (props) => {
-    return <div><p>{props.text}</p></div>
-}
+// const Child = (props) => {
+//     return <div><p>{props.text}</p></div>
+// }
 
-const Parent = () => {
+// const Parent = () => {
 
-    return <div><p>parent</p>
-        <Child text={"this is a prop"} />
-    </div>
-}
+//     return <div><p>parent</p>
+//         <Child text={"this is a prop"} />
+//     </div>
+// }
 
 export default Contact
