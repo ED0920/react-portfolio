@@ -5,7 +5,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0f7173;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -41,20 +41,17 @@
   margin: 25px;
 }
 
-/* footer */
-
-.footer {
-  height: 100px;
-  background-color: pink;
-  margin: 0;
+.navStyle.current Link:active {
+  font-weight: bold;
 }
+
+/* footer */
 
 footer {
   display: block;
-  padding-top: 10%;
-  height: 100px;
-  /* margin: auto; */
-  background-color: orange;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: #0f7173;
   text-align: center;
 }
 .footer a {
@@ -76,7 +73,7 @@ footer {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 50px;
+  padding: 50px;
 }
 .image-container {
   box-sizing: border-box;
@@ -84,9 +81,27 @@ footer {
   margin: 25px;
   height: 250px;
   width: 400px;
-  padding: 50px 25px 50px 25px;
 }
 
+.hidden {
+  padding: 50px 25px 50px 25px;
+  width: 340px;
+  height: 140px;
+  background-color: grey;
+  opacity: 50%;
+}
+.hidden a {
+  display: none;
+}
+.hidden h5 {
+  display: none;
+}
+.hidden:hover a {
+  display: block;
+}
+.hidden:hover h5 {
+  display: block;
+}
 /* Contact */
 
 .name {

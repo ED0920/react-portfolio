@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+const textBox1 = {
+    height: "25px",
+}
+
 const Contact = () => {
 
     const [name, setName] = useState('');
@@ -16,12 +20,14 @@ const Contact = () => {
             <h2>Contact</h2>
             <h4>Name:</h4>
             <input
+                style={textBox1}
                 value={name}
                 required
                 onChange={(e) => setName(e.target.value)}
             />
             <h4>Email:</h4>
             <input
+                style={textBox1}
                 value={email}
                 required
                 onChange={(e) => setEmail(e.target.value)}

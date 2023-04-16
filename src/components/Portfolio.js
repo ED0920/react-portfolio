@@ -38,78 +38,89 @@ const Portfolio = () => {
         <h2>Portfolio</h2>
         <div class="container">
           <div class="image-container" style={boxStyle1}>
-            <a href="https://note-taker-23.herokuapp.com/"> Note Taker</a>
-            <a
-              href="https://github.com/ED0920/note-taker"
-              style={{ margin: "10px 10px 10px 10px" }}
-            >
-              <GithubSvg />
-            </a>
-            <h5>JavaScript</h5>
+            <div class="hidden">
+              <a href="https://note-taker-23.herokuapp.com/"> Note Taker</a>
+              <a
+                href="https://github.com/ED0920/note-taker"
+                style={{ margin: "10px 10px 10px 10px" }}
+              >
+                <GithubSvg />
+              </a>
+              <h5>JavaScript</h5>
+            </div>
           </div>
 
           <div class="image-container" style={boxStyle2}>
-            <a href="https://ed0920.github.io/password-generator/">
-              {" "}
-              Password Generator
-            </a>
-            <a
-              href="https://github.com/ED0920/note-taker"
-              style={{ margin: "10px 10px 10px 10px" }}
-            >
-              <GithubSvg />
-            </a>
-            <h5>MernStack</h5>
+            <div class="hidden">
+              <a href="https://ed0920.github.io/password-generator/">
+                Password Generator
+              </a>
+              <a
+                href="https://github.com/ED0920/note-taker"
+                style={{ margin: "10px 10px 10px 10px" }}
+              >
+                <GithubSvg />
+              </a>
+              <h5>MernStack</h5>
+            </div>
           </div>
 
           <div class="image-container" style={boxStyle3}>
-            <a href="https://ed0920.github.io/Code-Quiz/">Coding Quiz </a>
-            <a
-              href="https://github.com/ED0920/Code-Quiz"
-              style={{ margin: "10px 10px 10px 10px" }}
-            >
-              <GithubSvg />
-            </a>
-            <h5>Web APIs</h5>
+            <div class="hidden">
+              <a href="https://ed0920.github.io/Code-Quiz/">Coding Quiz </a>
+              <a
+                href="https://github.com/ED0920/Code-Quiz"
+                style={{ margin: "10px 10px 10px 10px" }}
+              >
+                <GithubSvg />
+              </a>
+              <h5>Web APIs</h5>
+            </div>
           </div>
 
           <div class="image-container" style={boxStyle4}>
-            <a href="https://project-2-fullstack-estore.herokuapp.com/">
-              Ecommerce Store
-            </a>
-            <a
-              href="https://github.com/ED0920"
-              style={{ margin: "10px 10px 10px 10px" }}
-            >
-              <GithubSvg />
-            </a>
-            <h5>project 2</h5>
+            <div class="hidden">
+              <a href="https://project-2-fullstack-estore.herokuapp.com/">
+                Ecommerce Store
+              </a>
+              <a
+                href="https://github.com/ED0920"
+                style={{ margin: "10px 10px 10px 10px" }}
+              >
+                <GithubSvg />
+              </a>
+              <h5>project 2</h5>
+            </div>
           </div>
 
           <div class="image-container" style={boxStyle5}>
-            <a href="https://ed0920.github.io/Professional-Porfolio/">
-              Professional Portfolio
-            </a>
-            <a
-              href="https://github.com/ED0920/Professional-Porfolio"
-              style={{ margin: "10px 10px 10px 10px" }}
-            >
-              <GithubSvg />
-            </a>
-            <h5>HTML & CSS</h5>
+            <div class="hidden">
+              <a href="https://ed0920.github.io/Professional-Porfolio/">
+                Professional Portfolio
+              </a>
+              <a
+                href="https://github.com/ED0920/Professional-Porfolio"
+                style={{ margin: "10px 10px 10px 10px" }}
+              >
+                <GithubSvg />
+              </a>
+              <h5>HTML & CSS</h5>
+            </div>
           </div>
 
           <div class="image-container" style={boxStyle6}>
-            <a href="https://ed0920.github.io/Weather-Dashboard/">
-              Weather Dashboard
-            </a>
-            <a
-              href=" https://github.com/ED0920/Weather-Dashboard"
-              style={{ margin: "10px 10px 10px 10px" }}
-            >
-              <GithubSvg />
-            </a>
-            <h5>Server-Side APIs</h5>
+            <div class="hidden">
+              <a href="https://ed0920.github.io/Weather-Dashboard/">
+                Weather Dashboard
+              </a>
+              <a
+                href=" https://github.com/ED0920/Weather-Dashboard"
+                style={{ margin: "10px 10px 10px 10px" }}
+              >
+                <GithubSvg />
+              </a>
+              <h5>Server-Side APIs</h5>
+            </div>
           </div>
         </div>
       </div>

@@ -14,6 +14,9 @@ function Layout({ children }) {
         <Header />
       </header>
       {children}
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 };
@@ -47,7 +50,7 @@ function App() {
       {/* <Portfolio /> */}
       {/* <Contact /> */}
       {/* <Resume /> */}
-      <Footer />
+
     </div>
   );
 }
