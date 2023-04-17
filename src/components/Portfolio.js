@@ -7,7 +7,7 @@ import bg6 from "../assets/pro6.jpeg";
 import { ReactComponent as GithubSvg } from "../assets/github.svg";
 import { useState } from "react";
 
-const marginStyling = { marginLeft: 10, marginRight: 10 };
+const marginStyling = { marginLeft: 20, marginTop: 25, marginRight: 10 };
 
 const PortfolioBox = ({ image, children }) => {
   const [hover, setHover] = useState(false);
@@ -56,73 +56,83 @@ const Portfolio = () => {
           </PortfolioBox>
           <PortfolioBox image={bg2}>
             <>
-              <a href="https://ed0920.github.io/password-generator/">
-                Password Generator
-              </a>
-              <a
-                href="https://github.com/ED0920/note-taker"
-                style={{ margin: "10px 10px 10px 10px" }}
-              >
-                <GithubSvg />
-              </a>
-              <h5>MernStack</h5>
+              <div style={marginStyling}>
+                <a href="https://ed0920.github.io/password-generator/">
+                  Password Generator
+                </a>
+                <a
+                  href="https://github.com/ED0920/note-taker"
+                  style={{ margin: "10px 10px 10px 10px" }}
+                >
+                  <GithubSvg />
+                </a>
+                <h5>MernStack</h5>
+              </div>
             </>
           </PortfolioBox>
           <PortfolioBox image={bg3}>
             <>
-              <a href="https://ed0920.github.io/Code-Quiz/">Coding Quiz </a>
-              <a
-                href="https://github.com/ED0920/Code-Quiz"
-                style={{ margin: "10px 10px 10px 10px" }}
-              >
-                <GithubSvg />
-              </a>
-              <h5>Web APIs</h5>
+              <div style={marginStyling}>
+                <a href="https://ed0920.github.io/Code-Quiz/">Coding Quiz </a>
+                <a
+                  href="https://github.com/ED0920/Code-Quiz"
+                  style={{ margin: "10px 10px 10px 10px" }}
+                >
+                  <GithubSvg />
+                </a>
+                <h5>Web APIs</h5>
+              </div>
             </>
           </PortfolioBox>
 
           <PortfolioBox image={bg4}>
             <>
-              <a href="https://project-2-fullstack-estore.herokuapp.com/">
-                Ecommerce Store
-              </a>
-              <a
-                href="https://github.com/ED0920"
-                style={{ margin: "10px 10px 10px 10px" }}
-              >
-                <GithubSvg />
-              </a>
-              <h5>Project 2</h5>
+              <div style={marginStyling}>
+                <a href="https://project-2-fullstack-estore.herokuapp.com/">
+                  Ecommerce Store
+                </a>
+                <a
+                  href="https://github.com/ED0920"
+                  style={{ margin: "10px 10px 10px 10px" }}
+                >
+                  <GithubSvg />
+                </a>
+                <h5>Project 2</h5>
+              </div>
             </>
           </PortfolioBox>
 
           <PortfolioBox image={bg5}>
             <>
-              <a href="https://ed0920.github.io/Professional-Porfolio/">
-                Professional Portfolio
-              </a>
-              <a
-                href="https://github.com/ED0920/Professional-Porfolio"
-                style={{ margin: "10px 10px 10px 10px" }}
-              >
-                <GithubSvg />
-              </a>
-              <h5>HTML & CSS</h5>
+              <div style={marginStyling}>
+                <a href="https://ed0920.github.io/Professional-Porfolio/">
+                  Professional Portfolio
+                </a>
+                <a
+                  href="https://github.com/ED0920/Professional-Porfolio"
+                  style={{ margin: "10px 10px 10px 10px" }}
+                >
+                  <GithubSvg />
+                </a>
+                <h5>HTML & CSS</h5>
+              </div>
             </>
           </PortfolioBox>
 
           <PortfolioBox image={bg6}>
             <>
-              <a href="https://ed0920.github.io/Weather-Dashboard/">
-                Weather Dashboard
-              </a>
-              <a
-                href="https://github.com/ED0920/Weather-Dashboard/"
-                style={{ margin: "10px 10px 10px 10px" }}
-              >
-                <GithubSvg />
-              </a>
-              <h5>HTML & CSS</h5>
+              <div style={marginStyling}>
+                <a href="https://ed0920.github.io/Weather-Dashboard/">
+                  Weather Dashboard
+                </a>
+                <a
+                  href="https://github.com/ED0920/Weather-Dashboard/"
+                  style={{ margin: "10px 10px 10px 10px" }}
+                >
+                  <GithubSvg />
+                </a>
+                <h5>HTML & CSS</h5>
+              </div>
             </>
           </PortfolioBox>
         </div>

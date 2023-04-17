@@ -1,6 +1,11 @@
+const body = {
+    minHeight: '60vh',
+}
+
+
 const Resume = () => {
     return <div>
-        <div class="bodyContainer">
+        <div class="bodyContainer" style={body}>
             <div>Download my <a href="www.google.com">resume</a></div>
             <div>
                 <h3>Font-end Proficiencies</h3>
