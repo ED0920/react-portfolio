@@ -76,32 +76,21 @@ footer {
   padding: 50px;
 }
 .image-container {
+  position: relative;
   box-sizing: border-box;
-  border: 5px solid #92cccd;
+  border: 5px solid #0f7173;
   margin: 25px;
   height: 250px;
   width: 400px;
 }
+.image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 
-.hidden {
-  padding: 50px 25px 50px 25px;
-  width: 340px;
-  height: 140px;
-  background-color: grey;
-  opacity: 50%;
-}
-.hidden a {
-  display: none;
-}
-.hidden h5 {
-  display: none;
-}
-.hidden:hover a {
-  display: block;
-}
-.hidden:hover h5 {
-  display: block;
-}
 /* Contact */
 
 .name {

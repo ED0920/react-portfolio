@@ -24,7 +24,7 @@ function Layout({ children }) {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout><AboutMe /></Layout>,
+    element: <Layout ><AboutMe /></Layout>,
   },
   {
     path: "/portfolio",
