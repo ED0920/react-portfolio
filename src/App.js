@@ -5,19 +5,21 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from "./components/Resume";
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { HashRouter, createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 function Layout({ children }) {
   return (
-    <div>
-      <header className="App-header">
-        <Header />
-      </header>
-      {children}
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <HashRouter>
+      <div>
+        <header className="App-header">
+          <Header />
+        </header>
+        {children}
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </HashRouter>
   )
 };
 
